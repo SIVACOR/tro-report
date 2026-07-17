@@ -1,0 +1,2635 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sivacor": "https://vocabulary.sivacor.org/0.1/",
+    "trov": "https://w3id.org/trace/trov/0.1#"
+  },
+  "@graph": [
+    {
+      "@id": "tro",
+      "@type": [
+        "trov:TransparentResearchObject",
+        "schema:CreativeWork"
+      ],
+      "schema:creator": "SIVACOR/tro_utils",
+      "schema:dateCreated": "2026-06-16T15:42:12.821458",
+      "schema:description": "SIVACOR Run",
+      "schema:name": "radioactive-surrender",
+      "trov:createdWith": {
+        "@type": "schema:SoftwareApplication",
+        "schema:name": "tro-utils",
+        "schema:softwareVersion": "0.4.5"
+      },
+      "trov:hasArrangement": [
+        {
+          "@id": "arrangement/0",
+          "@type": "trov:ArtifactArrangement",
+          "rdfs:comment": "Before executing workflow",
+          "trov:hasArtifactLocation": [
+            {
+              "@id": "arrangement/0/location/0",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/0"
+              },
+              "trov:path": "README.md"
+            },
+            {
+              "@id": "arrangement/0/location/1",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/1"
+              },
+              "trov:path": "LICENSE.txt"
+            },
+            {
+              "@id": "arrangement/0/location/2",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/2"
+              },
+              "trov:path": "run_everything.do"
+            },
+            {
+              "@id": "arrangement/0/location/3",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/3"
+              },
+              "trov:path": "README.pdf"
+            },
+            {
+              "@id": "arrangement/0/location/4",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/4"
+              },
+              "trov:path": "data/feasible.csv"
+            },
+            {
+              "@id": "arrangement/0/location/5",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/5"
+              },
+              "trov:path": "data/all_treatments.dta"
+            },
+            {
+              "@id": "arrangement/0/location/6",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/6"
+              },
+              "trov:path": "experiment-instructions/Experiment Instructions Stars 2s.pdf"
+            },
+            {
+              "@id": "arrangement/0/location/7",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/7"
+              },
+              "trov:path": "experiment-instructions/UoE_Consent_form_job market_template_v1.1_17102022.pdf"
+            },
+            {
+              "@id": "arrangement/0/location/8",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/8"
+              },
+              "trov:path": "experiment-instructions/Experiment Instructions bundles 2s.pdf"
+            },
+            {
+              "@id": "arrangement/0/location/9",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/9"
+              },
+              "trov:path": "experiment-instructions/Experiment Instructions full info 2s.pdf"
+            },
+            {
+              "@id": "arrangement/0/location/10",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/10"
+              },
+              "trov:path": "output/tables/reg_stars_lags.tex"
+            },
+            {
+              "@id": "arrangement/0/location/11",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/11"
+              },
+              "trov:path": "output/tables/reg_employed_avgothersskill_round2023.tex"
+            },
+            {
+              "@id": "arrangement/0/location/12",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/12"
+              },
+              "trov:path": "output/tables/reg_employed_skill.tex"
+            },
+            {
+              "@id": "arrangement/0/location/13",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/13"
+              },
+              "trov:path": "output/figures/Individual_agency_ratings_2s2023.pdf"
+            },
+            {
+              "@id": "arrangement/0/location/14",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "output/figures/employment_and_others_skill.pdf"
+            },
+            {
+              "@id": "arrangement/0/location/15",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/15"
+              },
+              "trov:path": "output/figures/Worker_skill_and_outcomes2023.pdf"
+            },
+            {
+              "@id": "arrangement/0/location/16",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/16"
+              },
+              "trov:path": "output/figures/hiding_news2026.pdf"
+            },
+            {
+              "@id": "arrangement/0/location/17",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/17"
+              },
+              "trov:path": "output/figures/iso-profit-curves_percent_with_predictions2023.pdf"
+            },
+            {
+              "@id": "arrangement/0/location/18",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/18"
+              },
+              "trov:path": "experiment-software/mvnw.cmd"
+            },
+            {
+              "@id": "arrangement/0/location/19",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/19"
+              },
+              "trov:path": "experiment-software/mvnw"
+            },
+            {
+              "@id": "arrangement/0/location/20",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/20"
+              },
+              "trov:path": "experiment-software/docker-compose.yml"
+            },
+            {
+              "@id": "arrangement/0/location/21",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/21"
+              },
+              "trov:path": "experiment-software/README-experiment.md"
+            },
+            {
+              "@id": "arrangement/0/location/22",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/22"
+              },
+              "trov:path": "experiment-software/README-experiment.pdf"
+            },
+            {
+              "@id": "arrangement/0/location/23",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/23"
+              },
+              "trov:path": "experiment-software/.gitignore"
+            },
+            {
+              "@id": "arrangement/0/location/24",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/24"
+              },
+              "trov:path": "experiment-software/pom.xml"
+            },
+            {
+              "@id": "arrangement/0/location/25",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/25"
+              },
+              "trov:path": "experiment-software/Dockerfile"
+            },
+            {
+              "@id": "arrangement/0/location/26",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/26"
+              },
+              "trov:path": "experiment-software/.mvn/wrapper/maven-wrapper.jar"
+            },
+            {
+              "@id": "arrangement/0/location/27",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/27"
+              },
+              "trov:path": "experiment-software/.mvn/wrapper/maven-wrapper.properties"
+            },
+            {
+              "@id": "arrangement/0/location/28",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/28"
+              },
+              "trov:path": "experiment-software/docker/tomcat-users.xml"
+            },
+            {
+              "@id": "arrangement/0/location/29",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/29"
+              },
+              "trov:path": "experiment-software/src/test/java/psm/TestDraws.java"
+            },
+            {
+              "@id": "arrangement/0/location/30",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/30"
+              },
+              "trov:path": "experiment-software/src/test/java/psm/GenFrontier.java"
+            },
+            {
+              "@id": "arrangement/0/location/31",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/31"
+              },
+              "trov:path": "experiment-software/src/test/java/psm/MiscTest.java"
+            },
+            {
+              "@id": "arrangement/0/location/32",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/32"
+              },
+              "trov:path": "experiment-software/src/test/java/psm/GaleShapleyAlgoTest.java"
+            },
+            {
+              "@id": "arrangement/0/location/33",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/33"
+              },
+              "trov:path": "experiment-software/src/test/java/psm/MongoTests.java"
+            },
+            {
+              "@id": "arrangement/0/location/34",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/34"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/Utils.java"
+            },
+            {
+              "@id": "arrangement/0/location/35",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/35"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/DrawMaker.java"
+            },
+            {
+              "@id": "arrangement/0/location/36",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/36"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/ExperimentBean.java"
+            },
+            {
+              "@id": "arrangement/0/location/37",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/37"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/GaleShapleyAlgo.java"
+            },
+            {
+              "@id": "arrangement/0/location/38",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/38"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/AgencyEmployerTask.java"
+            },
+            {
+              "@id": "arrangement/0/location/39",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/39"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/ExperimentSetup.java"
+            },
+            {
+              "@id": "arrangement/0/location/40",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/40"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/SSEWaitServlet.java"
+            },
+            {
+              "@id": "arrangement/0/location/41",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/41"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/TaskResponse.java"
+            },
+            {
+              "@id": "arrangement/0/location/42",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/42"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/AppInit.java"
+            },
+            {
+              "@id": "arrangement/0/location/43",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/43"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/Role.java"
+            },
+            {
+              "@id": "arrangement/0/location/44",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/44"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/Task.java"
+            },
+            {
+              "@id": "arrangement/0/location/45",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/45"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/GeneratePaymentLink.java"
+            },
+            {
+              "@id": "arrangement/0/location/46",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/46"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/Wait4Experimenter.java"
+            },
+            {
+              "@id": "arrangement/0/location/47",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/47"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/SubjectServlet.java"
+            },
+            {
+              "@id": "arrangement/0/location/48",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/48"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/NewResultsExtractor.java"
+            },
+            {
+              "@id": "arrangement/0/location/49",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/49"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/MongoManager.java"
+            },
+            {
+              "@id": "arrangement/0/location/50",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/50"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/NaturalOrderComparator.java"
+            },
+            {
+              "@id": "arrangement/0/location/51",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/51"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/SubjectBean.java"
+            },
+            {
+              "@id": "arrangement/0/location/52",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/52"
+              },
+              "trov:path": "experiment-software/src/main/java/info/macias/sse/SseBroadcaster.java"
+            },
+            {
+              "@id": "arrangement/0/location/53",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/53"
+              },
+              "trov:path": "experiment-software/src/main/java/info/macias/sse/SseDispatcher.java"
+            },
+            {
+              "@id": "arrangement/0/location/54",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/54"
+              },
+              "trov:path": "experiment-software/src/main/java/info/macias/sse/events/MessageEvent.java"
+            },
+            {
+              "@id": "arrangement/0/location/55",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/55"
+              },
+              "trov:path": "experiment-software/src/main/java/utils/ResultsCSV.java"
+            },
+            {
+              "@id": "arrangement/0/location/56",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/56"
+              },
+              "trov:path": "experiment-software/src/main/webapp/agency_employer.css"
+            },
+            {
+              "@id": "arrangement/0/location/57",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/57"
+              },
+              "trov:path": "experiment-software/src/main/webapp/favicon.ico"
+            },
+            {
+              "@id": "arrangement/0/location/58",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/58"
+              },
+              "trov:path": "experiment-software/src/main/webapp/employer.jsp"
+            },
+            {
+              "@id": "arrangement/0/location/59",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/59"
+              },
+              "trov:path": "experiment-software/src/main/webapp/jquery-ui.css"
+            },
+            {
+              "@id": "arrangement/0/location/60",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/60"
+              },
+              "trov:path": "experiment-software/src/main/webapp/agency.jsp"
+            },
+            {
+              "@id": "arrangement/0/location/61",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/61"
+              },
+              "trov:path": "experiment-software/src/main/webapp/hiring_results.jsp"
+            },
+            {
+              "@id": "arrangement/0/location/62",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/62"
+              },
+              "trov:path": "experiment-software/src/main/webapp/index.html"
+            },
+            {
+              "@id": "arrangement/0/location/63",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/63"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/export.jsp"
+            },
+            {
+              "@id": "arrangement/0/location/64",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/64"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/setup.jsp"
+            },
+            {
+              "@id": "arrangement/0/location/65",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/65"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/export_agency.jsp"
+            },
+            {
+              "@id": "arrangement/0/location/66",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/66"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/reset.jsp"
+            },
+            {
+              "@id": "arrangement/0/location/67",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/67"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/export_workers.jsp"
+            },
+            {
+              "@id": "arrangement/0/location/68",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/68"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/subjects.jsp"
+            },
+            {
+              "@id": "arrangement/0/location/69",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/69"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/export_employer.jsp"
+            },
+            {
+              "@id": "arrangement/0/location/70",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/70"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/index.html"
+            },
+            {
+              "@id": "arrangement/0/location/71",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/71"
+              },
+              "trov:path": "experiment-software/src/main/webapp/js/jquery-1.10.2.js"
+            },
+            {
+              "@id": "arrangement/0/location/72",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/72"
+              },
+              "trov:path": "experiment-software/src/main/webapp/js/EventSource.js"
+            },
+            {
+              "@id": "arrangement/0/location/73",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/73"
+              },
+              "trov:path": "experiment-software/src/main/webapp/js/jquery-ui.js"
+            },
+            {
+              "@id": "arrangement/0/location/74",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/74"
+              },
+              "trov:path": "experiment-software/src/main/webapp/js/ssewait.js"
+            },
+            {
+              "@id": "arrangement/0/location/75",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/75"
+              },
+              "trov:path": "experiment-software/src/main/webapp/images/ui-bg_glass_75_e6e6e6_1x400.png"
+            },
+            {
+              "@id": "arrangement/0/location/76",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/76"
+              },
+              "trov:path": "experiment-software/src/main/webapp/WEB-INF/web.xml"
+            },
+            {
+              "@id": "arrangement/0/location/77",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/77"
+              },
+              "trov:path": "experiment-software/src/main/webapp/WEB-INF/finished.jsp"
+            },
+            {
+              "@id": "arrangement/0/location/78",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/78"
+              },
+              "trov:path": "experiment-software/src/main/webapp/WEB-INF/waiting.jsp"
+            },
+            {
+              "@id": "arrangement/0/location/79",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/79"
+              },
+              "trov:path": "experiment-software/src/main/webapp/WEB-INF/jspf/game_details.jspf"
+            },
+            {
+              "@id": "arrangement/0/location/80",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/80"
+              },
+              "trov:path": "code/equilibria_bundles.py"
+            },
+            {
+              "@id": "arrangement/0/location/81",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/81"
+              },
+              "trov:path": "code/prepare_data.do"
+            },
+            {
+              "@id": "arrangement/0/location/82",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/82"
+              },
+              "trov:path": "code/figure_4_hiding_news.do"
+            },
+            {
+              "@id": "arrangement/0/location/83",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/83"
+              },
+              "trov:path": "code/table_3_bundles_regressions_revised.do"
+            },
+            {
+              "@id": "arrangement/0/location/84",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/84"
+              },
+              "trov:path": "code/figure_5_agency_star_ratings.do"
+            },
+            {
+              "@id": "arrangement/0/location/85",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/85"
+              },
+              "trov:path": "code/figure_1_average_skill_and_employment.do"
+            },
+            {
+              "@id": "arrangement/0/location/86",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/86"
+              },
+              "trov:path": "code/figure_3_employment_and_others_skill.do"
+            },
+            {
+              "@id": "arrangement/0/location/87",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/87"
+              },
+              "trov:path": "code/figure_2_workers_offered_and_employed.do"
+            },
+            {
+              "@id": "arrangement/0/location/88",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/88"
+              },
+              "trov:path": "code/table_5_skills_of_others.do"
+            },
+            {
+              "@id": "arrangement/0/location/89",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/89"
+              },
+              "trov:path": "code/equilibria_stars.py"
+            },
+            {
+              "@id": "arrangement/0/location/90",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/90"
+              },
+              "trov:path": "code/table_6_skeptical.do"
+            },
+            {
+              "@id": "arrangement/0/location/91",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/91"
+              },
+              "trov:path": "code/table_2_observed.do"
+            },
+            {
+              "@id": "arrangement/0/location/92",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/92"
+              },
+              "trov:path": "code/figure_1_feasible.py"
+            },
+            {
+              "@id": "arrangement/0/location/93",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/93"
+              },
+              "trov:path": "code/table_2_predictions.do"
+            },
+            {
+              "@id": "arrangement/0/location/94",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/94"
+              },
+              "trov:path": "code/table_4_optimal_bundles_stars.do"
+            }
+          ]
+        },
+        {
+          "@id": "arrangement/1",
+          "@type": "trov:ArtifactArrangement",
+          "rdfs:comment": "After executing workflow step 1",
+          "trov:hasArtifactLocation": [
+            {
+              "@id": "arrangement/1/location/0",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/0"
+              },
+              "trov:path": "README.md"
+            },
+            {
+              "@id": "arrangement/1/location/1",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/1"
+              },
+              "trov:path": "LICENSE.txt"
+            },
+            {
+              "@id": "arrangement/1/location/2",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/2"
+              },
+              "trov:path": "run_everything.do"
+            },
+            {
+              "@id": "arrangement/1/location/3",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/3"
+              },
+              "trov:path": "README.pdf"
+            },
+            {
+              "@id": "arrangement/1/location/4",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/95"
+              },
+              "trov:path": "run_everything.log"
+            },
+            {
+              "@id": "arrangement/1/location/5",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/96"
+              },
+              "trov:path": "data/feasible.csv"
+            },
+            {
+              "@id": "arrangement/1/location/6",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/5"
+              },
+              "trov:path": "data/all_treatments.dta"
+            },
+            {
+              "@id": "arrangement/1/location/7",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/6"
+              },
+              "trov:path": "experiment-instructions/Experiment Instructions Stars 2s.pdf"
+            },
+            {
+              "@id": "arrangement/1/location/8",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/7"
+              },
+              "trov:path": "experiment-instructions/UoE_Consent_form_job market_template_v1.1_17102022.pdf"
+            },
+            {
+              "@id": "arrangement/1/location/9",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/8"
+              },
+              "trov:path": "experiment-instructions/Experiment Instructions bundles 2s.pdf"
+            },
+            {
+              "@id": "arrangement/1/location/10",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/9"
+              },
+              "trov:path": "experiment-instructions/Experiment Instructions full info 2s.pdf"
+            },
+            {
+              "@id": "arrangement/1/location/11",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/97"
+              },
+              "trov:path": "output/tables/reg_stars_lags.tex"
+            },
+            {
+              "@id": "arrangement/1/location/12",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/98"
+              },
+              "trov:path": "output/tables/reg_employed_avgothersskill_round2023.tex"
+            },
+            {
+              "@id": "arrangement/1/location/13",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/99"
+              },
+              "trov:path": "output/tables/reg_employed_skill.tex"
+            },
+            {
+              "@id": "arrangement/1/location/14",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/100"
+              },
+              "trov:path": "output/figures/Individual_agency_ratings_2s2023.pdf"
+            },
+            {
+              "@id": "arrangement/1/location/15",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/101"
+              },
+              "trov:path": "output/figures/employment_and_others_skill.pdf"
+            },
+            {
+              "@id": "arrangement/1/location/16",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/102"
+              },
+              "trov:path": "output/figures/Worker_skill_and_outcomes2023.pdf"
+            },
+            {
+              "@id": "arrangement/1/location/17",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/103"
+              },
+              "trov:path": "output/figures/hiding_news2026.pdf"
+            },
+            {
+              "@id": "arrangement/1/location/18",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/104"
+              },
+              "trov:path": "output/figures/iso-profit-curves_percent_with_predictions2023.pdf"
+            },
+            {
+              "@id": "arrangement/1/location/19",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/18"
+              },
+              "trov:path": "experiment-software/mvnw.cmd"
+            },
+            {
+              "@id": "arrangement/1/location/20",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/19"
+              },
+              "trov:path": "experiment-software/mvnw"
+            },
+            {
+              "@id": "arrangement/1/location/21",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/20"
+              },
+              "trov:path": "experiment-software/docker-compose.yml"
+            },
+            {
+              "@id": "arrangement/1/location/22",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/21"
+              },
+              "trov:path": "experiment-software/README-experiment.md"
+            },
+            {
+              "@id": "arrangement/1/location/23",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/22"
+              },
+              "trov:path": "experiment-software/README-experiment.pdf"
+            },
+            {
+              "@id": "arrangement/1/location/24",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/23"
+              },
+              "trov:path": "experiment-software/.gitignore"
+            },
+            {
+              "@id": "arrangement/1/location/25",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/24"
+              },
+              "trov:path": "experiment-software/pom.xml"
+            },
+            {
+              "@id": "arrangement/1/location/26",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/25"
+              },
+              "trov:path": "experiment-software/Dockerfile"
+            },
+            {
+              "@id": "arrangement/1/location/27",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/26"
+              },
+              "trov:path": "experiment-software/.mvn/wrapper/maven-wrapper.jar"
+            },
+            {
+              "@id": "arrangement/1/location/28",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/27"
+              },
+              "trov:path": "experiment-software/.mvn/wrapper/maven-wrapper.properties"
+            },
+            {
+              "@id": "arrangement/1/location/29",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/28"
+              },
+              "trov:path": "experiment-software/docker/tomcat-users.xml"
+            },
+            {
+              "@id": "arrangement/1/location/30",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/29"
+              },
+              "trov:path": "experiment-software/src/test/java/psm/TestDraws.java"
+            },
+            {
+              "@id": "arrangement/1/location/31",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/30"
+              },
+              "trov:path": "experiment-software/src/test/java/psm/GenFrontier.java"
+            },
+            {
+              "@id": "arrangement/1/location/32",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/31"
+              },
+              "trov:path": "experiment-software/src/test/java/psm/MiscTest.java"
+            },
+            {
+              "@id": "arrangement/1/location/33",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/32"
+              },
+              "trov:path": "experiment-software/src/test/java/psm/GaleShapleyAlgoTest.java"
+            },
+            {
+              "@id": "arrangement/1/location/34",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/33"
+              },
+              "trov:path": "experiment-software/src/test/java/psm/MongoTests.java"
+            },
+            {
+              "@id": "arrangement/1/location/35",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/34"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/Utils.java"
+            },
+            {
+              "@id": "arrangement/1/location/36",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/35"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/DrawMaker.java"
+            },
+            {
+              "@id": "arrangement/1/location/37",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/36"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/ExperimentBean.java"
+            },
+            {
+              "@id": "arrangement/1/location/38",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/37"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/GaleShapleyAlgo.java"
+            },
+            {
+              "@id": "arrangement/1/location/39",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/38"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/AgencyEmployerTask.java"
+            },
+            {
+              "@id": "arrangement/1/location/40",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/39"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/ExperimentSetup.java"
+            },
+            {
+              "@id": "arrangement/1/location/41",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/40"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/SSEWaitServlet.java"
+            },
+            {
+              "@id": "arrangement/1/location/42",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/41"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/TaskResponse.java"
+            },
+            {
+              "@id": "arrangement/1/location/43",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/42"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/AppInit.java"
+            },
+            {
+              "@id": "arrangement/1/location/44",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/43"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/Role.java"
+            },
+            {
+              "@id": "arrangement/1/location/45",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/44"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/Task.java"
+            },
+            {
+              "@id": "arrangement/1/location/46",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/45"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/GeneratePaymentLink.java"
+            },
+            {
+              "@id": "arrangement/1/location/47",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/46"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/Wait4Experimenter.java"
+            },
+            {
+              "@id": "arrangement/1/location/48",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/47"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/SubjectServlet.java"
+            },
+            {
+              "@id": "arrangement/1/location/49",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/48"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/NewResultsExtractor.java"
+            },
+            {
+              "@id": "arrangement/1/location/50",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/49"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/MongoManager.java"
+            },
+            {
+              "@id": "arrangement/1/location/51",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/50"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/NaturalOrderComparator.java"
+            },
+            {
+              "@id": "arrangement/1/location/52",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/51"
+              },
+              "trov:path": "experiment-software/src/main/java/psm/SubjectBean.java"
+            },
+            {
+              "@id": "arrangement/1/location/53",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/52"
+              },
+              "trov:path": "experiment-software/src/main/java/info/macias/sse/SseBroadcaster.java"
+            },
+            {
+              "@id": "arrangement/1/location/54",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/53"
+              },
+              "trov:path": "experiment-software/src/main/java/info/macias/sse/SseDispatcher.java"
+            },
+            {
+              "@id": "arrangement/1/location/55",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/54"
+              },
+              "trov:path": "experiment-software/src/main/java/info/macias/sse/events/MessageEvent.java"
+            },
+            {
+              "@id": "arrangement/1/location/56",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/55"
+              },
+              "trov:path": "experiment-software/src/main/java/utils/ResultsCSV.java"
+            },
+            {
+              "@id": "arrangement/1/location/57",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/56"
+              },
+              "trov:path": "experiment-software/src/main/webapp/agency_employer.css"
+            },
+            {
+              "@id": "arrangement/1/location/58",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/57"
+              },
+              "trov:path": "experiment-software/src/main/webapp/favicon.ico"
+            },
+            {
+              "@id": "arrangement/1/location/59",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/58"
+              },
+              "trov:path": "experiment-software/src/main/webapp/employer.jsp"
+            },
+            {
+              "@id": "arrangement/1/location/60",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/59"
+              },
+              "trov:path": "experiment-software/src/main/webapp/jquery-ui.css"
+            },
+            {
+              "@id": "arrangement/1/location/61",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/60"
+              },
+              "trov:path": "experiment-software/src/main/webapp/agency.jsp"
+            },
+            {
+              "@id": "arrangement/1/location/62",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/61"
+              },
+              "trov:path": "experiment-software/src/main/webapp/hiring_results.jsp"
+            },
+            {
+              "@id": "arrangement/1/location/63",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/62"
+              },
+              "trov:path": "experiment-software/src/main/webapp/index.html"
+            },
+            {
+              "@id": "arrangement/1/location/64",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/63"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/export.jsp"
+            },
+            {
+              "@id": "arrangement/1/location/65",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/64"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/setup.jsp"
+            },
+            {
+              "@id": "arrangement/1/location/66",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/65"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/export_agency.jsp"
+            },
+            {
+              "@id": "arrangement/1/location/67",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/66"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/reset.jsp"
+            },
+            {
+              "@id": "arrangement/1/location/68",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/67"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/export_workers.jsp"
+            },
+            {
+              "@id": "arrangement/1/location/69",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/68"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/subjects.jsp"
+            },
+            {
+              "@id": "arrangement/1/location/70",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/69"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/export_employer.jsp"
+            },
+            {
+              "@id": "arrangement/1/location/71",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/70"
+              },
+              "trov:path": "experiment-software/src/main/webapp/admin/index.html"
+            },
+            {
+              "@id": "arrangement/1/location/72",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/71"
+              },
+              "trov:path": "experiment-software/src/main/webapp/js/jquery-1.10.2.js"
+            },
+            {
+              "@id": "arrangement/1/location/73",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/72"
+              },
+              "trov:path": "experiment-software/src/main/webapp/js/EventSource.js"
+            },
+            {
+              "@id": "arrangement/1/location/74",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/73"
+              },
+              "trov:path": "experiment-software/src/main/webapp/js/jquery-ui.js"
+            },
+            {
+              "@id": "arrangement/1/location/75",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/74"
+              },
+              "trov:path": "experiment-software/src/main/webapp/js/ssewait.js"
+            },
+            {
+              "@id": "arrangement/1/location/76",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/75"
+              },
+              "trov:path": "experiment-software/src/main/webapp/images/ui-bg_glass_75_e6e6e6_1x400.png"
+            },
+            {
+              "@id": "arrangement/1/location/77",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/76"
+              },
+              "trov:path": "experiment-software/src/main/webapp/WEB-INF/web.xml"
+            },
+            {
+              "@id": "arrangement/1/location/78",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/77"
+              },
+              "trov:path": "experiment-software/src/main/webapp/WEB-INF/finished.jsp"
+            },
+            {
+              "@id": "arrangement/1/location/79",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/78"
+              },
+              "trov:path": "experiment-software/src/main/webapp/WEB-INF/waiting.jsp"
+            },
+            {
+              "@id": "arrangement/1/location/80",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/79"
+              },
+              "trov:path": "experiment-software/src/main/webapp/WEB-INF/jspf/game_details.jspf"
+            },
+            {
+              "@id": "arrangement/1/location/81",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/80"
+              },
+              "trov:path": "code/equilibria_bundles.py"
+            },
+            {
+              "@id": "arrangement/1/location/82",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/81"
+              },
+              "trov:path": "code/prepare_data.do"
+            },
+            {
+              "@id": "arrangement/1/location/83",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/82"
+              },
+              "trov:path": "code/figure_4_hiding_news.do"
+            },
+            {
+              "@id": "arrangement/1/location/84",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/83"
+              },
+              "trov:path": "code/table_3_bundles_regressions_revised.do"
+            },
+            {
+              "@id": "arrangement/1/location/85",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/84"
+              },
+              "trov:path": "code/figure_5_agency_star_ratings.do"
+            },
+            {
+              "@id": "arrangement/1/location/86",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/85"
+              },
+              "trov:path": "code/figure_1_average_skill_and_employment.do"
+            },
+            {
+              "@id": "arrangement/1/location/87",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/86"
+              },
+              "trov:path": "code/figure_3_employment_and_others_skill.do"
+            },
+            {
+              "@id": "arrangement/1/location/88",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/87"
+              },
+              "trov:path": "code/figure_2_workers_offered_and_employed.do"
+            },
+            {
+              "@id": "arrangement/1/location/89",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/88"
+              },
+              "trov:path": "code/table_5_skills_of_others.do"
+            },
+            {
+              "@id": "arrangement/1/location/90",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/89"
+              },
+              "trov:path": "code/equilibria_stars.py"
+            },
+            {
+              "@id": "arrangement/1/location/91",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/90"
+              },
+              "trov:path": "code/table_6_skeptical.do"
+            },
+            {
+              "@id": "arrangement/1/location/92",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/91"
+              },
+              "trov:path": "code/table_2_observed.do"
+            },
+            {
+              "@id": "arrangement/1/location/93",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/92"
+              },
+              "trov:path": "code/figure_1_feasible.py"
+            },
+            {
+              "@id": "arrangement/1/location/94",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/93"
+              },
+              "trov:path": "code/table_2_predictions.do"
+            },
+            {
+              "@id": "arrangement/1/location/95",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/94"
+              },
+              "trov:path": "code/table_4_optimal_bundles_stars.do"
+            }
+          ]
+        }
+      ],
+      "trov:hasAttribute": [],
+      "trov:hasComposition": {
+        "@id": "composition/1",
+        "@type": "trov:ArtifactComposition",
+        "trov:hasArtifact": [
+          {
+            "@id": "composition/1/artifact/0",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "d3949a106bf92a61e0ed3d06a76452b801e91352be4e3d00250cb32b2fb3c9aa"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/1",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "8ca47d25998d929c7aa7f650176e917ad8658e3fcf9d285a574153e655a017fb"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/10",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "5e0df6974a5795ef4f5de14487e6b55ec2c4e25e33371291a370c0f14541597e"
+            },
+            "trov:mimeType": "text/x-tex"
+          },
+          {
+            "@id": "composition/1/artifact/100",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "bf32d2c6e217a02fc165a8019a3dc82284c04d1732a988725375522dcf4a72df"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/101",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "85a2dfde212028fbf11360930fd03a5a33788eedc7543960136bc32bb979d37f"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/102",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "0288bfcaa86f9615527a54b7216c44c4e848ffd8e723c0990d8488e990a61d8e"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/103",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "64a37e27fce4ea320ec05f90f3c3dd5f8adf2d71cd4f2364c429d3be032e6b04"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/104",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "6b6c37d4aa596950cb67d1f82a732a4a4728643dd033a79fab5f74bc08c805df"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/11",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "4227c527a886e4937b6259a99762da1d01a4161996ea6c0828d4cef56faa2113"
+            },
+            "trov:mimeType": "text/x-tex"
+          },
+          {
+            "@id": "composition/1/artifact/12",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "e5c0e5346ec91511a24429a38cac6232acd0e85163630562e063abbad5df7f41"
+            },
+            "trov:mimeType": "text/x-tex"
+          },
+          {
+            "@id": "composition/1/artifact/13",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "c2fa82a21c638961355ab5a0afcac2b16d80c88c9eccfc2b79e96bb83f5e8466"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/14",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "026011f16a384676bb5261df92c709442ebde431ac5448d62a3d590627b91317"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/15",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "110d23031dfb4e722bad899caa659a54d16ce210951d2c35c4d3fd28dce90ebb"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/16",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "22245bafdc77e0172ccc941240323b2fc40e5d5907f74cbba54c29f02e3d9f56"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/17",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "aece17c3f9c3c243cd153005c1bd84f2e515f1bbd32a3b2d663ba244bfade02a"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/18",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "9fc29bafef5aaef519a8680bb06afa96a140b40706e81415328e8501293693c7"
+            },
+            "trov:mimeType": "text/x-msdos-batch"
+          },
+          {
+            "@id": "composition/1/artifact/19",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "38d667bc125027df96a62b04aa0a53e03cb5fdc0eb3e0f8f505c0ed1d0a30eea"
+            },
+            "trov:mimeType": "text/x-shellscript"
+          },
+          {
+            "@id": "composition/1/artifact/2",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "41c1714d5de17c9d99c22b589169ca5dc4c0575b9947ac1456f5b1772866b90a"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/20",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "7aa1699d80d6b90f1082214606b3bf55a941374f6e336d7ac80949d629bc39d7"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/21",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "6edbc7e0d1513d6c0c255478e2044ccb1a3758517cb59e58fa075cbb4f958159"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/22",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "033386b0d586d78898be6133953f76589f84da3d0311b2a0a31c39dee1f31f8d"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/23",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "f5e5228e26bce6cd38df489960da8cf4f9ac707a6dee24b9eb8ef69cc2b1ee57"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/24",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "35e3227d4cd1e2dbd9889ff4e4fc2f9b596af2dca836202820ae93e1bf1a0517"
+            },
+            "trov:mimeType": "text/xml"
+          },
+          {
+            "@id": "composition/1/artifact/25",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "4cfc9e76e06fd46a23910cb7183c7dff29d289ec6dc6ce7d73bbeb826de73d30"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/26",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "ff7f21f2ef81723377e3d42d06661c4e3af60cf4bdfb7579ac8f22051399942d"
+            },
+            "trov:mimeType": "application/x-decompression-error-gzip-"
+          },
+          {
+            "@id": "composition/1/artifact/27",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "d0a1a157f1099e157913a0e9ce34d030ee5f5ec4a757a90891130ccdb9fbf109"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/28",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "6007c470f56139d558d4fb49a51fb37b647ac5207dcae4e38cd812831c153f80"
+            },
+            "trov:mimeType": "text/xml"
+          },
+          {
+            "@id": "composition/1/artifact/29",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "f64e64f030d1a32bcabd37b9a2e0c086e696e5d609b6c9e01dd28411aa88fe7a"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/3",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "e796b5eba226b0db529a72f325a2357f948e9550731f8935c6c9264359fe0b1a"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/30",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "4ae04743b67a7b8061be31f8dadc9049e5422f16e8ce83556c54d1bc5d9cf8d4"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/31",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "39a88500d94c8f95bd103944e205cf71a0b56736e63723fba7e6257d43c3fcc5"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/32",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "00c0dbb48989cfea38aea6e649d2ce701b01d270919f870465ea002303bdd2bc"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/33",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "d06061a998f64ea90eee21c52eb136a235554c87ec0c4ad4a5382b765ee4aac5"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/34",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "3e8358a45c87d404f42a1ef7898e435b4c32302292aba33fdc76905d6a33fb27"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/35",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "8f68271930aec9389e440a7906f9371abf6708073520c5e1c03d595506cd0976"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/36",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "672fac42379bc2edb0243f6200f3ec82a3712f0eec51f242929eb9178d9e1d51"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/37",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "4d243e5c83f0192e06b18a3c3ba78a504004a6f2ca1413fd39b47f3850db7b22"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/38",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "c6e9ceb467c16581c5d76ffb9a476c336006c360eaca4ab0df4b9dbd30dd971e"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/39",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "943337cd19815ef202ba13708d20f59d5b4a7c8ced39e5e2171a94735f0b5bca"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/4",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "ece3a476af952b9a2d22c651179b9b25a4421e9744042ec8fb9205805cc9fb51"
+            },
+            "trov:mimeType": "text/csv"
+          },
+          {
+            "@id": "composition/1/artifact/40",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "af8fe95276961974d68acedd584f049e246355918e1314622c635d389102d017"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/41",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "d8539738d43e64a28fa8e7256d0ebf003c6ddd792a53c1e6b80c74a58d280b84"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/42",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "de49415458590ae9fad20952673078f3cdfb312bd9f839a36e2ea9f977f516e6"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/43",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "e28fcd6ccf61585680445a571566480ca3575db47e1ed9cb1c30e1c0b3679094"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/44",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "66b9bfb2fa7e69fa5d78f077c5ebf0ac64ebdb4f63c962b18818724c176084b2"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/45",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "89d4962489e485bbce6874ba115eb45f3b1258cbbcb75f3dba7552f7404b4008"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/46",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "cd1aab8b5862d3847f1601f812607b742e596b422439882bef15c172d9eadce5"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/47",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "627b720f3df5fef721c479c22d76be7bc0c6650d15b51f9f6433be340b2409c2"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/48",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "926582a1872d5807d9ccd81aa3dfb8d4aa84e28110f702c9b3c984d0e2c7fd58"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/49",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "0a955c13c3dea1abfe6f1dd473daaeef05ddb17c91b68fcf7accaefc00bb10ce"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/5",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "ec209abe6d55f21275ed104c962721b9bc911e8252c7c2b9ba38d23600b66e97"
+            },
+            "trov:mimeType": "application/octet-stream"
+          },
+          {
+            "@id": "composition/1/artifact/50",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "dd55df26e29e076dddfca63aa86cbdc5671a4d0405b64ad1bc5498d4b2d57234"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/51",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "0179bbca65d7bb9ef8dbe1d6050f02722371888e96fb507e2c696ae246afa4c7"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/52",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "e094e161b89fe46cda4a6f0c1d45d50d1c52f00dd5dd0229f6993a6d091c7531"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/53",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "621cd7dbbf7a07e767f5a2c54bc6a9c96b91d466f8e05e69cac3676adbccee63"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/54",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "2119414bf6ea772d46a77d2ce96fce7ce3367fc78f4bd8830284d6961b49139d"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/55",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "0cd5ee8df4e392043768630dfc4e9fb662923528fea0b2276cf41ea1392c1bb9"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/56",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "a275f1fd4f1761b23734d8506946a748c940d04455aa39834cf4521a2393af3b"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/57",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "e23dbb9a5ef826a99621401221dc0298b8957f14a2a4c35a811f8a06efa9d617"
+            },
+            "trov:mimeType": "image/vnd.microsoft.icon"
+          },
+          {
+            "@id": "composition/1/artifact/58",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "644f5c70f5e982d56cf8ad4d40b72b639133025dc0fa6dbb780a9cf07fb6fe80"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/59",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "c87b93427458ffcc687de50c24b749794c35bd314c22a9760f4cf0bcf0b74487"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/6",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "7ea495cca2701971170841df07f2e4ba15c0ba0b742f7ef0de4c80bbc6daeaa0"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/60",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "6997225ac97abedfb2fdcfa11ff7c7738fffe07c189a93dd73adbd56e3af141c"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/61",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "68e5d8561589d0bd580f5045d1d98e4e7a4b1dd5f91dd1fff5aaed62172d677a"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/62",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "279ed7287e130f48709cc6a96f79f3f6aa39ffcb3aec78c56cc4f4d9b5dd3a79"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/63",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "a427432d1c70c7fbee2feed5aeb57be4fda8ca0e16def671ab6fbdd51e8f9100"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/64",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "7dfae216838a5fcb03f91fcf3f2c8b9163840406b6d75f88606c2ee1f93f1c31"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/65",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "3afefbca6fb3e35724d0becd581d94ed6338691397aafb507213576d21926f89"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/66",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "b4d1c0f967728418abf27c0801f2a5d317d44ece91c34c7c83d73dc247663583"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/67",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "ccd029673fbd190a7afdd0d7d5eabfc4d1bdd6536946a6359cf74e9828a487c2"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/68",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "7924a744ec75171d4c86c897eca157872ae9f3825d72f186f656686e18d0fefe"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/69",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "3b3fcfc8b7a827980e3ad537d8ded39de6e23203cd65e3c70b2a6f1e7d8b0902"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/7",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "d461a6f4852be0e4b2fad2635263cf11e7e25406154d06fe2ce416d299c0ebb0"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/70",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "091e620d28b9383f0a88c503815212d66ae51f22d063c1fc3f185c247a27c39b"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/71",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "4f5e849f11b1f3d348b4f504b570ab268f89e735079d46330a80f4df498b96be"
+            },
+            "trov:mimeType": "application/javascript"
+          },
+          {
+            "@id": "composition/1/artifact/72",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "c5e51f56415953c14ac415e391082fba9227f71cba216898ac645def83dee2d1"
+            },
+            "trov:mimeType": "application/javascript"
+          },
+          {
+            "@id": "composition/1/artifact/73",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "37fbfc8e36798a479dd09027315d1de63f53d75aa169c97b7991ae9afbd249e4"
+            },
+            "trov:mimeType": "application/javascript"
+          },
+          {
+            "@id": "composition/1/artifact/74",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "cf52260a9dc22008f32b05125550deffbfd287c2bec5ebc11d0b05d2bb81168c"
+            },
+            "trov:mimeType": "application/javascript"
+          },
+          {
+            "@id": "composition/1/artifact/75",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "3daadc9a2c7f3a3f8f57f695d83c96617da821ce0e37d7bb99130adb8f166501"
+            },
+            "trov:mimeType": "image/png"
+          },
+          {
+            "@id": "composition/1/artifact/76",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "ff8619d3cdadb01eb0c8061e7e2aa2aa9324d1d6f84694f89e514ebd5519d563"
+            },
+            "trov:mimeType": "text/xml"
+          },
+          {
+            "@id": "composition/1/artifact/77",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "a2e83c9338928943b24f5437322c8b549c05fec16d0b531eea24b0cff3524984"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/78",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "3326d83810f83a0a9cdcd56bf370874ab356f6885573fa78a75a79f83bc205b9"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/79",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "689655e52138fc290717a3762d62bd5223575634c8469ad70c042b4d451c3784"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/8",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "7f00b90b9f40e2bcd17df50625bed22a606ed76567102cb923e310b4669f8cba"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/80",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "a834a2c9fa6c860c593d0631aa1c1abf4c303a8f5647e43bf509a334b881d45a"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/81",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "ff185b372a384623db66a1b2f7da10d5b02d8a656efde9b9c1324625c3125804"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/82",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "e6cea174b2c62f0cc3fc190b119142f6aa5759c01f0f3e1aada293fc791be3ad"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/83",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "035e76199b8b2cc655d7d3a5b268b2094ee63739dd63d67c98620096551011b8"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/84",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "4632b9aada93f62b5fec3cea581e595c7fbdf0f0fbcb381e47e536c021b3b3e7"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/85",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "d104f77fa22086f24628cfed7fa36694aa0756180c5cafd81aa2cc6ffed03389"
+            },
+            "trov:mimeType": "application/javascript"
+          },
+          {
+            "@id": "composition/1/artifact/86",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "ee4df05c68aa77876614cc8d70c17a4605a5644a69b44111b5e07c8e352f0835"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/87",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "f38442207a06ed68cd464bca22841e1b7eb8dc54737dcf89dc0b4e03b97ae1c5"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/88",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "6b9bcd4cf1b8b7eb2918177117c9f08a5ebac2fd0883815f6b1318bf92374546"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/89",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "5ada33cd851c7a3ee1e4e82013a40300bbbbc37b0dc3f8d0c44584f79042c915"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/9",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "b0d52610939710c72feb87bab68dcf52590109474cec5799e7bd0eeacd1f620c"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/90",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "eaa165d2f33c8cb27bb116a22ea6541e951b6fc3ded92249b6005cea11eccfa1"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/91",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "66f707e8d6163aa92872ed8b944d870926857345dc66a363c59f5f40d8861516"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/92",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "e1931950c131bc3be86a5679045ed1b6de0ca5cd3e4f6faaa06e4c670372206a"
+            },
+            "trov:mimeType": "text/x-script.python"
+          },
+          {
+            "@id": "composition/1/artifact/93",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "f41289acb6a83fa8e02d58329e805f89ecd51a8c8536bfe75fee431a29e093eb"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/94",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "5c09e4d0d12b0e9d070404f9b0d53c181501119dcc8a60c8e53aef1f3ae937c1"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/95",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "96ccc1d11caf3006e41745d29a7d8d11134fb736db0d1c0f7db40ceaef7f2593"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/96",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "79c82278e7baae93fe5bcb72002083cbb9f10e6780fd67c33d322dda82f4fd78"
+            },
+            "trov:mimeType": "text/csv"
+          },
+          {
+            "@id": "composition/1/artifact/97",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "76d737f32b369346200f2a631122369e926ca07cb590dc892421fad9d621201d"
+            },
+            "trov:mimeType": "text/x-tex"
+          },
+          {
+            "@id": "composition/1/artifact/98",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "7021caea76bd845ac7384286919528a67b50c7d8fda5399cc3b8afd3e40145a0"
+            },
+            "trov:mimeType": "text/x-tex"
+          },
+          {
+            "@id": "composition/1/artifact/99",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "80870a896de11a1dfa38badd1c1679f6921be5773b5b48b09ec17e5aed37efe4"
+            },
+            "trov:mimeType": "text/x-tex"
+          }
+        ],
+        "trov:hasFingerprint": {
+          "@id": "fingerprint",
+          "@type": "trov:CompositionFingerprint",
+          "trov:hash": {
+            "trov:hashAlgorithm": "sha256",
+            "trov:hashValue": "42808792403d4a56863540d0b9de667d01ea73480457eb470febac977fb222e8"
+          }
+        }
+      },
+      "trov:hasPerformance": [
+        {
+          "@id": "trp/0",
+          "@type": "trov:TrustedResearchPerformance",
+          "rdfs:comment": "SIVACOR workflow execution (run_everything.do) step 1",
+          "sivacor:Architecture": "x86_64",
+          "sivacor:DockerRunArgs": "{\"image\": \"dataeditors/stata19_5-mp-i-python:2026-04-15\", \"entrypoint\": [\"/usr/local/stata/stata-mp\", \"-b\", \"do\"], \"command\": \"'\\\"run_everything.do\\\"'\", \"detach\": true, \"mounts\": [{\"Target\": \"/workspace\", \"Source\": \"/home/ubuntu/deploy-dev/volumes/tmp/workspace-6a316ed46cb18dcf68acc4af\", \"Type\": \"bind\", \"ReadOnly\": false}, {\"Target\": \"/tmp\", \"Source\": \"/home/ubuntu/deploy-dev/volumes/tmp/tmp-6a316ed46cb18dcf68acc4af\", \"Type\": \"bind\", \"ReadOnly\": false}, {\"Target\": \"/usr/local/stata/stata.lic\", \"Source\": \"/home/ubuntu/deploy-dev/volumes/licenses/stata.lic.19\", \"Type\": \"bind\", \"ReadOnly\": true}], \"network_disabled\": false, \"read_only\": true, \"working_dir\": \"/workspace/project/\", \"user\": \"1000:1000\", \"environment\": {\"TMPDIR\": \"/tmp\", \"TEMP\": \"/tmp\", \"TMP\": \"/tmp\", \"HOME\": \"/workspace\", \"R_LIBS\": \"/workspace/R/library\", \"R_LIBS_USER\": \"/workspace/R/library\", \"MLM_LICENSE_FILE\": \"27007@rtlicense1.uits.indiana.edu\"}}",
+          "sivacor:FinishedAt": "2026-06-16T15:42:42.974653183Z",
+          "sivacor:ImageRepoDigests": [
+            "dataeditors/stata19_5-mp-i-python@sha256:7921f4ee992eecc51cf254365f057666645e3df9e581d021bf815119ef3cb36e"
+          ],
+          "sivacor:ImageRepoTags": [
+            "dataeditors/stata19_5-mp-i-python:2026-04-15"
+          ],
+          "sivacor:KernelVersion": "6.17.0-23-generic",
+          "sivacor:MaxCPUPercent": 1592.99,
+          "sivacor:MaxMemoryUsage": 335691776,
+          "sivacor:MemTotal": 63188779008,
+          "sivacor:NCPU": 16,
+          "sivacor:OSType": "linux",
+          "sivacor:OSVersion": "24.04",
+          "sivacor:OperatingSystem": "Ubuntu 24.04.4 LTS",
+          "sivacor:Processor": "AMD EPYC-Milan Processor",
+          "sivacor:StartedAt": "2026-06-16T15:42:14.927099845Z",
+          "trov:accessedArrangement": {
+            "@id": "trp/0/binding/0",
+            "@type": "trov:ArrangementBinding",
+            "trov:arrangement": {
+              "@id": "arrangement/0"
+            },
+            "trov:boundTo": "/workspace"
+          },
+          "trov:contributedToArrangement": {
+            "@id": "trp/0/binding/1",
+            "@type": "trov:ArrangementBinding",
+            "trov:arrangement": {
+              "@id": "arrangement/1"
+            },
+            "trov:boundTo": "/workspace"
+          },
+          "trov:endedAtTime": "2026-06-16T15:42:45.466920",
+          "trov:hasPerformanceAttribute": [
+            {
+              "@id": "trp/0/attribute/0",
+              "@type": "trov:EnvironmentIsolation",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/1"
+              }
+            },
+            {
+              "@id": "trp/0/attribute/1",
+              "@type": "trov:NonInteractiveExecution",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/3"
+              }
+            },
+            {
+              "@id": "trp/0/attribute/2",
+              "@type": "trov:CapabilitiesTechnicallyEnforced",
+              "trov:warrantedBy": {
+                "@id": "trs/capability/4"
+              }
+            }
+          ],
+          "trov:startedAtTime": "2026-06-16T15:42:13.066944",
+          "trov:wasConductedBy": {
+            "@id": "trs"
+          }
+        }
+      ],
+      "trov:vocabularyVersion": "0.1",
+      "trov:wasAssembledBy": {
+        "@id": "trs",
+        "@type": [
+          "trov:TrustedResearchSystem",
+          "schema:Organization"
+        ],
+        "rdfs:comment": "SIVACOR TRO profile",
+        "sivacor:stackVersion": "0.1.3",
+        "trov:contact": "admin@sivacor.org",
+        "trov:description": "SIVACOR AEA Infrastructure",
+        "trov:hasCapability": [
+          {
+            "@id": "trs/capability/1",
+            "@type": "trov:CanIsolateEnvironment"
+          },
+          {
+            "@id": "trs/capability/2",
+            "@type": "trov:CanProvideInternetIsolation"
+          },
+          {
+            "@id": "trs/capability/3",
+            "@type": "trov:CanPreventAuthorIntervention"
+          },
+          {
+            "@id": "trs/capability/4",
+            "@type": "trov:CanEnforceCapabilitiesTechnically"
+          }
+        ],
+        "trov:name": "sivacor",
+        "trov:owner": "SIVACOR Team",
+        "trov:publicKey": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n\nmDMEaRZowxYJKwYBBAHaRw8BAQdAZE3O+GSW5cJRjptdb8N7UW6jI7l6URVid7Qy\nsO4TTMO0IVNJVkFDT1IgVFJTIDxlZGl0b3JzQHNpdmFjb3Iub3JnPoiTBBMWCgA7\nFiEE99tIU58getRhLcQI2LsgcYYq/0oFAmkWaMMCGwMFCwkIBwICIgIGFQoJCAsC\nBBYCAwECHgcCF4AACgkQ2LsgcYYq/0roKAEAzcHiTUWZPf7IrTct0Zc9wV6C6pIi\nJz5s6EvopXMbiA4A/06xb/as9R479KXUtS7GmuIe5A1cKn6IHnu0gt1v9CUJtCFB\nZG1pbiBTSVZBQ09SIDxhZG1pbkBzaXZhY29yLm9yZz6IkwQTFgoAOxYhBPfbSFOf\nIHrUYS3ECNi7IHGGKv9KBQJpfQJHAhsDBQsJCAcCAiICBhUKCQgLAgQWAgMBAh4H\nAheAAAoJENi7IHGGKv9KnDcBAMAw+4jrpQGsbaJrgs/2MO/Q2TYTH2Rlsh9WVT1l\nLlYYAP0W+WkIs+J0VnuEXCrLcc6rc9iQUiBKb7lWqTaaECk1Bbg4BGkWaMMSCisG\nAQQBl1UBBQEBB0BoHfFiGW3Stl+JnlWswb3vpXuiEVAmWUst/dTIbk9NEgMBCAeI\neAQYFgoAIBYhBPfbSFOfIHrUYS3ECNi7IHGGKv9KBQJpFmjDAhsMAAoJENi7IHGG\nKv9Kmu0BAOcqj2DerJgZH7126goV0tXBqncbG5MPuzufGmdjYJ07AQCJAX/uj9X/\nv+YHdwl32ozy/kKWYaqlbrODQUbgSu0xBA==\n=iFZz\n-----END PGP PUBLIC KEY BLOCK-----\n",
+        "trov:url": "https://sivacor.org/"
+      }
+    }
+  ]
+}
